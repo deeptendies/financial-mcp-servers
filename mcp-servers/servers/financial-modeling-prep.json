@@ -1,0 +1,17 @@
+{
+  "name": "financial-modeling-prep",
+  "command": "npx",
+  "args": [
+    "-y",
+    "financial-modeling-prep-mcp-server"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "get_quote",
+    "get_company_profile",
+    "get_financial_statements"
+  ],
+  "env": {
+    "FMP_ACCESS_TOKEN": "YOUR_FMP_ACCESS_TOKEN"
+  }
+}

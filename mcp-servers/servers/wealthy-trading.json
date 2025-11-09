@@ -1,0 +1,19 @@
+{
+  "name": "wealthy-trading",
+  "command": "npx",
+  "args": [
+    "-y",
+    "mcp-remote@latest",
+    "https://mcp.wealthy-trading.com/v1",
+    "--header",
+    "X-API-KEY: ${WEALTHY_API_KEY}"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "get_realtime_price",
+    "place_order"
+  ],
+  "env": {
+    "WEALTHY_API_KEY": "YOUR_WEALTHY_API_KEY"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "polymarket-predictions",
+  "command": "npx",
+  "args": [
+    "-y",
+    "polymarket-mcp"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "getAllMarkets",
+    "getMarketDetails"
+  ],
+  "env": {
+    "PRIVATE_KEY": "YOUR_POLYGON_WALLET_PRIVATE_KEY"
+  }
+}

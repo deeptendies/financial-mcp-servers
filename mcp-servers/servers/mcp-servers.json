@@ -1,0 +1,161 @@
+{
+  "mcpServers": {
+    "financial-datasets": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://financialdatasets.ai/api/mcp",
+        "--header",
+        "X-API-KEY: ${FINANCIAL_DATASETS_API_KEY}"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "get_income_statements",
+        "get_balance_sheets",
+        "get_current_stock_price"
+      ],
+      "env": {
+        "FINANCIAL_DATASETS_API_KEY": "YOUR_FINANCIAL_DATASETS_API_KEY"
+      }
+    },
+    "financial-modeling-prep": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "financial-modeling-prep-mcp-server"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "get_quote",
+        "get_company_profile",
+        "get_financial_statements"
+      ],
+      "env": {
+        "FMP_ACCESS_TOKEN": "YOUR_FMP_ACCESS_TOKEN"
+      }
+    },
+    "alpha-vantage": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "findata-mcp-server"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "getStockQuote",
+        "getHistoricalData"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_API_KEY": "YOUR_ALPHA_VANTAGE_API_KEY"
+      }
+    },
+    "yahoo-finance": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "stock-llm"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "get_stock_price",
+        "get_stock_history",
+        "get_company_overview"
+      ],
+      "env": {
+        "ALPHA_VANTAGE_API_KEY": "YOUR_ALPHA_VANTAGE_API_KEY"
+      }
+    },
+    "coinstats-crypto": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@coinstats/coinstats-mcp"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "get-coin-by-id",
+        "get-coin-charts"
+      ],
+      "env": {
+        "COINSTATS_API_KEY": "YOUR_COINSTATS_API_KEY"
+      }
+    },
+    "polymarket-predictions": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "polymarket-mcp"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "getAllMarkets",
+        "getMarketDetails"
+      ],
+      "env": {
+        "PRIVATE_KEY": "YOUR_POLYGON_WALLET_PRIVATE_KEY"
+      }
+    },
+    "wealthy-trading": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://mcp.wealthy-trading.com/v1",
+        "--header",
+        "X-API-KEY: ${WEALTHY_API_KEY}"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "get_realtime_price",
+        "place_order"
+      ],
+      "env": {
+        "WEALTHY_API_KEY": "YOUR_WEALTHY_API_KEY"
+      }
+    },
+    "korea-stock-market": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "korea-stock-mcp@latest"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "get_corp_code",
+        "get_financial_statement"
+      ],
+      "env": {
+        "DART_API_KEY": "YOUR_DART_API_KEY",
+        "KRX_API_KEY": "YOUR_KRX_API_KEY"
+      }
+    },
+    "aktools-asia-markets": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@aahl/mcp-aktools"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "stock_search",
+        "get_stock_history"
+      ],
+      "env": {}
+    },
+    "free-crypto-data": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://server.smithery.ai/@Liam8/free-coin-price-mcp/mcp"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "getCoinPrice",
+        "getCoinHistoricalChart"
+      ],
+      "env": {}
+    }
+  }
+}

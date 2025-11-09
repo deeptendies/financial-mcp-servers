@@ -1,0 +1,14 @@
+{
+  "name": "@coincap/coincap-mcp-server",
+  "command": "npx",
+  "args": [
+    "-y",
+    "@coincap/coincap-mcp-server"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "getCoinPrice",
+    "getCoinHistory"
+  ],
+  "env": {}
+}

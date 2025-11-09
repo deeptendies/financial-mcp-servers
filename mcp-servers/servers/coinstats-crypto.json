@@ -1,0 +1,16 @@
+{
+  "name": "coinstats-crypto",
+  "command": "npx",
+  "args": [
+    "-y",
+    "@coinstats/coinstats-mcp"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "get-coin-by-id",
+    "get-coin-charts"
+  ],
+  "env": {
+    "COINSTATS_API_KEY": "YOUR_COINSTATS_API_KEY"
+  }
+}

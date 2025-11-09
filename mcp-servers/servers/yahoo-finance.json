@@ -1,0 +1,17 @@
+{
+  "name": "yahoo-finance",
+  "command": "npx",
+  "args": [
+    "-y",
+    "stock-llm"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "get_stock_price",
+    "get_stock_history",
+    "get_company_overview"
+  ],
+  "env": {
+    "ALPHA_VANTAGE_API_KEY": "YOUR_ALPHA_VANTAGE_API_KEY"
+  }
+}

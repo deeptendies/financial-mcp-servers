@@ -1,0 +1,20 @@
+{
+  "name": "financial-datasets",
+  "command": "npx",
+  "args": [
+    "-y",
+    "mcp-remote@latest",
+    "https://financialdatasets.ai/api/mcp",
+    "--header",
+    "X-API-KEY: ${FINANCIAL_DATASETS_API_KEY}"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "get_income_statements",
+    "get_balance_sheets",
+    "get_current_stock_price"
+  ],
+  "env": {
+    "FINANCIAL_DATASETS_API_KEY": "YOUR_FINANCIAL_DATASETS_API_KEY"
+  }
+}

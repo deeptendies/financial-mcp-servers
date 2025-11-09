@@ -1,0 +1,14 @@
+{
+  "name": "fixparser-plugin-mcp",
+  "command": "npx",
+  "args": [
+    "-y",
+    "fixparser-plugin-mcp"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "parse_fix",
+    "get_market_messages"
+  ],
+  "env": {}
+}

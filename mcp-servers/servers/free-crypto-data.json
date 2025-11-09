@@ -1,0 +1,15 @@
+{
+  "name": "free-crypto-data",
+  "command": "npx",
+  "args": [
+    "-y",
+    "mcp-remote@latest",
+    "https://server.smithery.ai/@Liam8/free-coin-price-mcp/mcp"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "getCoinPrice",
+    "getCoinHistoricalChart"
+  ],
+  "env": {}
+}

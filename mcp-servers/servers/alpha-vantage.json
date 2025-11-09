@@ -1,0 +1,16 @@
+{
+  "name": "alpha-vantage",
+  "command": "npx",
+  "args": [
+    "-y",
+    "findata-mcp-server"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "getStockQuote",
+    "getHistoricalData"
+  ],
+  "env": {
+    "ALPHA_VANTAGE_API_KEY": "YOUR_ALPHA_VANTAGE_API_KEY"
+  }
+}

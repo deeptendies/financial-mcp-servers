@@ -1,0 +1,17 @@
+{
+  "name": "korea-stock-market",
+  "command": "npx",
+  "args": [
+    "-y",
+    "korea-stock-mcp@latest"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "get_corp_code",
+    "get_financial_statement"
+  ],
+  "env": {
+    "DART_API_KEY": "YOUR_DART_API_KEY",
+    "KRX_API_KEY": "YOUR_KRX_API_KEY"
+  }
+}

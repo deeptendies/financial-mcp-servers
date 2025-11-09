@@ -1,0 +1,14 @@
+{
+  "name": "aktools-asia-markets",
+  "command": "npx",
+  "args": [
+    "-y",
+    "@aahl/mcp-aktools"
+  ],
+  "disabled": false,
+  "autoApprove": [
+    "stock_search",
+    "get_stock_history"
+  ],
+  "env": {}
+}

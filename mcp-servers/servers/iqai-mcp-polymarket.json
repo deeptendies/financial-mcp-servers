@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "iqai-mcp-polymarket",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@iqai/mcp-polymarket"
   ],
   "disabled": false,
   "autoApprove": [],

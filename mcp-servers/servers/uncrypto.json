@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "uncrypto",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "uncrypto"
   ],
   "disabled": false,
   "autoApprove": [],

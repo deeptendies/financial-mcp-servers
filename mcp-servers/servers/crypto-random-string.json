@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "crypto-random-string",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "crypto-random-string"
   ],
   "disabled": false,
   "autoApprove": [],

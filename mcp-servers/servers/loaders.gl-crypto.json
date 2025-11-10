@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "loaders.gl-crypto",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@loaders.gl/crypto"
   ],
   "disabled": false,
   "autoApprove": [],

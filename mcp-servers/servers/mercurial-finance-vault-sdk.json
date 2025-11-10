@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "mercurial-finance-vault-sdk",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@mercurial-finance/vault-sdk"
   ],
   "disabled": false,
   "autoApprove": [],

@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "graphlit",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "graphlit-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

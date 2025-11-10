@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "libp2p-crypto",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@libp2p/crypto"
   ],
   "disabled": false,
   "autoApprove": [],

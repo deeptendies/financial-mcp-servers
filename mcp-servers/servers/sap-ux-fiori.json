@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "sap-ux-fiori",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@sap-ux/fiori-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

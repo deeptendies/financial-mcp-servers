@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "interactive-brokers-mcp",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "interactive-brokers-mcp"
   ],
   "disabled": false,
   "autoApprove": [],

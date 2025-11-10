@@ -1,0 +1,712 @@
+{
+  "open-stock-stock-auth-server": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@open-stock/stock-auth-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "open-stock-stock-notif-server": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@open-stock/stock-notif-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "notionhq-notion": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@notionhq/notion-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "executeautomation-playwright": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@executeautomation/playwright-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "open-stock-stock-notif-client": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@open-stock/stock-notif-client"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "dynatrace-oss-dynatrace": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@dynatrace-oss/dynatrace-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "slack": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "slack-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "apify-actors": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@apify/actors-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "sap-ux-fiori": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@sap-ux/fiori-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "brave-brave-search": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@brave/brave-search-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "open-stock-stock-counter-server": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@open-stock/stock-counter-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "open-stock-stock-universal-server": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@open-stock/stock-universal-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "exa": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "exa-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "graphlit": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "graphlit-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "open-stock-stock-counter-client": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@open-stock/stock-counter-client"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "jpisnice-shadcn-ui": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@jpisnice/shadcn-ui-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "octagon-mcp": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "octagon-mcp"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "cyanheads-git": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@cyanheads/git-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "taazkareem-clickup": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@taazkareem/clickup-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "kubernetes": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "kubernetes-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "redstone-api": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "redstone-api"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "mercurial-finance-dynamic-amm-sdk": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mercurial-finance/dynamic-amm-sdk"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "agentic-payments": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "agentic-payments"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "mercurial-finance-vault-sdk": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mercurial-finance/vault-sdk"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "easy": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "easy-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "kamino-finance-scope-sdk": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kamino-finance/scope-sdk"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "crypto-js": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "crypto-js"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "browserify-aes": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "browserify-aes"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "minimalistic-crypto-utils": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "minimalistic-crypto-utils"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "aws-crypto-supports-web-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aws-crypto/supports-web-crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "crypto-browserify": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "crypto-browserify"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "aws-crypto-sha256-js": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aws-crypto/sha256-js"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "crypto-randomuuid": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "crypto-randomuuid"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "peculiar-webcrypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@peculiar/webcrypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "otplib-plugin-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@otplib/plugin-crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "evp_bytestokey": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "evp_bytestokey"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "crypto-random-string": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "crypto-random-string"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "aws-crypto-sha256-browser": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aws-crypto/sha256-browser"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "randombytes": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "randombytes"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "aws-crypto-ie11-detection": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aws-crypto/ie11-detection"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "aws-crypto-util": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aws-crypto/util"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "browserify-sign": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "browserify-sign"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "create-hmac": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "create-hmac"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "fr3k-behemoth": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "fr3k-behemoth"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "expo-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "expo-crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "md5.js": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "md5.js"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "cipher-base": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "cipher-base"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "oslojs-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@oslojs/crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "aws-crypto-crc32": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aws-crypto/crc32"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "types-crypto-js": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@types/crypto-js"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "node-object-hash": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "node-object-hash"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "aws-crypto-crc32c": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aws-crypto/crc32c"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "bigint-crypto-utils": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "bigint-crypto-utils"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "walletconnect-iso-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@walletconnect/iso-crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "toruslabs-eccrypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@toruslabs/eccrypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "aws-crypto-sha1-browser": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@aws-crypto/sha1-browser"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "crypto-hash": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "crypto-hash"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "react-native-quick-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "react-native-quick-crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "deno-shim-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@deno/shim-crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "loaders.gl-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@loaders.gl/crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "libp2p-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@libp2p/crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "ripemd160": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "ripemd160"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "mcp-crypto-price": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-crypto-price"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "uncrypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "uncrypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "lobehub-market-types": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@lobehub/market-types"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "github": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "github-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "interactive-brokers-mcp": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "interactive-brokers-mcp"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "iqai-mcp-polymarket": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@iqai/mcp-polymarket"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "fixparser-plugin-mcp": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "fixparser-plugin-mcp"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "tradingview": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "tradingview-mcp-server"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "iqai-mcp-limitless": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@iqai/mcp-limitless"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  }
+}

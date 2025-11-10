@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "md5.js",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "md5.js"
   ],
   "disabled": false,
   "autoApprove": [],

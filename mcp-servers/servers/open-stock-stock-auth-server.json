@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "open-stock-stock-auth-server",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@open-stock/stock-auth-server"
   ],
   "disabled": false,
   "autoApprove": [],

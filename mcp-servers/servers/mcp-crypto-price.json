@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "mcp-crypto-price",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "mcp-crypto-price"
   ],
   "disabled": false,
   "autoApprove": [],

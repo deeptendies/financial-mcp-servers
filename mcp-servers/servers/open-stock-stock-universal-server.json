@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "open-stock-stock-universal-server",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@open-stock/stock-universal-server"
   ],
   "disabled": false,
   "autoApprove": [],

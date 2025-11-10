@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "open-stock-stock-counter-client",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@open-stock/stock-counter-client"
   ],
   "disabled": false,
   "autoApprove": [],

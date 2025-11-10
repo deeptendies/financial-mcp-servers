@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "exa",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "exa-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

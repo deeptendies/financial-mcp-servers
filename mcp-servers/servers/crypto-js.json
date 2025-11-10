@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "crypto-js",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "crypto-js"
   ],
   "disabled": false,
   "autoApprove": [],

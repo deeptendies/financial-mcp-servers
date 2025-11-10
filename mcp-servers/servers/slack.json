@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "slack",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "slack-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

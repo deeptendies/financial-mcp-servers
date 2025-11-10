@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "jpisnice-shadcn-ui",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@jpisnice/shadcn-ui-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

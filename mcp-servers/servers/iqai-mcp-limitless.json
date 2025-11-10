@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "iqai-mcp-limitless",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@iqai/mcp-limitless"
   ],
   "disabled": false,
   "autoApprove": [],

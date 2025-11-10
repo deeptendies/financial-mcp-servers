@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "aws-crypto-util",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@aws-crypto/util"
   ],
   "disabled": false,
   "autoApprove": [],

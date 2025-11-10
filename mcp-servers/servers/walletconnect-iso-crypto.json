@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "walletconnect-iso-crypto",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@walletconnect/iso-crypto"
   ],
   "disabled": false,
   "autoApprove": [],

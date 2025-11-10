@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "ripemd160",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "ripemd160"
   ],
   "disabled": false,
   "autoApprove": [],

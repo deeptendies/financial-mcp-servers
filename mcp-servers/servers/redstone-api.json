@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "redstone-api",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "redstone-api"
   ],
   "disabled": false,
   "autoApprove": [],

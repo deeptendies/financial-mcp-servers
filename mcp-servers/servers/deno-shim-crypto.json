@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "deno-shim-crypto",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@deno/shim-crypto"
   ],
   "disabled": false,
   "autoApprove": [],

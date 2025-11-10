@@ -1,0 +1,38 @@
+name: Update MCP Servers
+
+on:
+  schedule:
+    - cron: '0 3 * * 1' # every Monday at 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run MCP scanner
+        run: |
+          node mcp-servers/scripts/generate-mcp-config.js
+
+      - name: Show diff (for logs)
+        run: |
+          git status --porcelain
+          git --no-pager diff || true
+
+      - name: Commit and push generated config if changed
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: mcp-bot
+          author_email: mcp-bot@example.com
+          message: "chore(mcp): update generated MCP servers"
+          add: 'mcp-servers/generated-mcp-servers.json'
+          push: true

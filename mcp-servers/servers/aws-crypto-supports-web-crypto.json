@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "aws-crypto-supports-web-crypto",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@aws-crypto/supports-web-crypto"
   ],
   "disabled": false,
   "autoApprove": [],

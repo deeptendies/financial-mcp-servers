@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "aws-crypto-crc32c",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@aws-crypto/crc32c"
   ],
   "disabled": false,
   "autoApprove": [],

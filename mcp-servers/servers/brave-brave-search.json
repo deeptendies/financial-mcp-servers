@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "brave-brave-search",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@brave/brave-search-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "kamino-finance-scope-sdk",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@kamino-finance/scope-sdk"
   ],
   "disabled": false,
   "autoApprove": [],

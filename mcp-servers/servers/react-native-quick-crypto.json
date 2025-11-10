@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "react-native-quick-crypto",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "react-native-quick-crypto"
   ],
   "disabled": false,
   "autoApprove": [],

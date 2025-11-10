@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "executeautomation-playwright",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@executeautomation/playwright-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

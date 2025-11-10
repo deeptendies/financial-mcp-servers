@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "aws-crypto-ie11-detection",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@aws-crypto/ie11-detection"
   ],
   "disabled": false,
   "autoApprove": [],

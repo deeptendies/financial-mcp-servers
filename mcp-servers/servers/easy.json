@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "easy",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "easy-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

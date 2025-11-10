@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "cyanheads-git",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@cyanheads/git-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

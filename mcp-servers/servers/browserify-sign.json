@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "browserify-sign",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "browserify-sign"
   ],
   "disabled": false,
   "autoApprove": [],

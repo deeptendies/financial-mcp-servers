@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "taazkareem-clickup",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@taazkareem/clickup-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

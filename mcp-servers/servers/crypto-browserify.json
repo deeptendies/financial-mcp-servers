@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "crypto-browserify",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "crypto-browserify"
   ],
   "disabled": false,
   "autoApprove": [],

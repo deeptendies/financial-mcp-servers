@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "lobehub-market-types",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@lobehub/market-types"
   ],
   "disabled": false,
   "autoApprove": [],

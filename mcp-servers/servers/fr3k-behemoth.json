@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "fr3k-behemoth",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "fr3k-behemoth"
   ],
   "disabled": false,
   "autoApprove": [],

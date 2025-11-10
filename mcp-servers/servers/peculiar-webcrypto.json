@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "peculiar-webcrypto",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@peculiar/webcrypto"
   ],
   "disabled": false,
   "autoApprove": [],

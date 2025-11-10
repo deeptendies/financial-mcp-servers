@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "aws-crypto-sha1-browser",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@aws-crypto/sha1-browser"
   ],
   "disabled": false,
   "autoApprove": [],

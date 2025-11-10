@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "evp_bytestokey",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "evp_bytestokey"
   ],
   "disabled": false,
   "autoApprove": [],

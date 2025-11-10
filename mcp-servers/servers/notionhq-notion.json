@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "notionhq-notion",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "@notionhq/notion-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

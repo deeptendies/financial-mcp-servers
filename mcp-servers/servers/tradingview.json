@@ -1,9 +1,9 @@
 {
-  "name": "fixparser-plugin-mcp",
+  "name": "tradingview",
   "command": "npx",
   "args": [
     "-y",
-    "fixparser-plugin-mcp"
+    "tradingview-mcp-server"
   ],
   "disabled": false,
   "autoApprove": [],

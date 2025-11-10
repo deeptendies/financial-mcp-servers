@@ -359,21 +359,21 @@
     "autoApprove": [],
     "env": {}
   },
-  "crypto-random-string": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "crypto-random-string"
-    ],
-    "disabled": false,
-    "autoApprove": [],
-    "env": {}
-  },
   "aws-crypto-sha256-browser": {
     "command": "npx",
     "args": [
       "-y",
       "@aws-crypto/sha256-browser"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "crypto-random-string": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "crypto-random-string"
     ],
     "disabled": false,
     "autoApprove": [],
@@ -499,21 +499,21 @@
     "autoApprove": [],
     "env": {}
   },
-  "node-object-hash": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "node-object-hash"
-    ],
-    "disabled": false,
-    "autoApprove": [],
-    "env": {}
-  },
   "aws-crypto-crc32c": {
     "command": "npx",
     "args": [
       "-y",
       "@aws-crypto/crc32c"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "node-object-hash": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "node-object-hash"
     ],
     "disabled": false,
     "autoApprove": [],
@@ -569,21 +569,21 @@
     "autoApprove": [],
     "env": {}
   },
-  "react-native-quick-crypto": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "react-native-quick-crypto"
-    ],
-    "disabled": false,
-    "autoApprove": [],
-    "env": {}
-  },
   "deno-shim-crypto": {
     "command": "npx",
     "args": [
       "-y",
       "@deno/shim-crypto"
+    ],
+    "disabled": false,
+    "autoApprove": [],
+    "env": {}
+  },
+  "react-native-quick-crypto": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "react-native-quick-crypto"
     ],
     "disabled": false,
     "autoApprove": [],
@@ -624,16 +624,6 @@
     "args": [
       "-y",
       "mcp-crypto-price"
-    ],
-    "disabled": false,
-    "autoApprove": [],
-    "env": {}
-  },
-  "uncrypto": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "uncrypto"
     ],
     "disabled": false,
     "autoApprove": [],
